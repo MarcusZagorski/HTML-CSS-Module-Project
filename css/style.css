@@ -1,10 +1,168 @@
 
  /* We are using the 'Roboto' font from Google. This has already been added to your HTML header */
 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     -webkit-font-smoothing: antialiased;
+    padding-top: 12px;
+    padding-bottom: 36px;
 }
+
+/* /* .favicon-icon {
+    
+} */
+
+.nav-flex-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 96px;
+}
+
+.flexbox-nav {
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+    margin-left: auto;
+    padding-right: 96px;
+}
+
+a {
+    text-decoration: none;
+    color: #868e96;
+    font-size: 18px;
+    font-weight: 400;
+    transition: color 1.2s;
+}
+
+a:hover,
+a:active {
+    color: #F15B2A;
+}
+
+.meet-karma-nav {
+    font-weight: bold;
+    color: #495057;
+    font-weight: 500;
+}
+
+.picture {
+    width: 100%;
+    height: 45rem;
+    margin-top: 16px;
+    background-image:url("/img/first-background.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    color: white;
+}
+
+.all-text-container {
+    text-align: center;
+}
+
+.intro-karma {
+    font-size: 74px;
+    font-weight: 100;
+}
+
+.product-details {
+    font-size: 38px;
+    font-weight: 100;
+    padding-top: 18px;
+}
+
+.learn-more-btn {
+    margin-top: 32px;
+}
+
+button {
+    padding: 18px 36px;
+    border-radius: 8px;
+    background-color: #F15B2A;
+    border: none;
+    font-size: 22px;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 200;
+    padding-top: 104px;
+    font-size: 52px;
+}
+
+.flex-container-icons-text {
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 24px;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 104px;
+}
+
+.text-under-svg {
+    font-size: 32px;
+    font-weight:normal;
+    margin-top: 38px;
+}
+
+.horizontal-line {
+    width: 84%;
+    margin: 0 auto;
+    background-color: #b4bcc36a;
+    height: 1.8px;
+}
+
+.socials-and-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 24px;
+}
+
+.join-us-text {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.social-media-icons {
+    padding-top: 24px;
+    display: flex;
+    gap: 24px;
+}
+
+.border {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1.6px solid #b4bcc36a;
+    padding: 8px 10px;
+    border-radius: 100%;
+}
+
+.copyright-stamp {
+    margin-top: 24px;
+    color: #868e96;
+}
+
 
 /**
  * Add your custom styles below
